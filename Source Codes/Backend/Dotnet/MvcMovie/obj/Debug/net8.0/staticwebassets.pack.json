@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "/Users/glydetek/Desktop/Study/Notes /Source Codes/Backend/Dotnet/MvcMovie/obj/Debug/net8.0/scopedcss/projectbundle/MvcMovie.bundle.scp.css",
-      "PackagePath": "staticwebassets/MvcMovie.bundle.scp.css"
+      "Id": "/Users/glydetek/Desktop/Study/Notes /Source Codes/Backend/Dotnet/MvcMovie/obj/Debug/net8.0/scopedcss/projectbundle/LearnDotnetMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets/LearnDotnetMVC.bundle.scp.css"
     },
     {
       "Id": "/Users/glydetek/Desktop/Study/Notes /Source Codes/Backend/Dotnet/MvcMovie/wwwroot/css/site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MvcMovie.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.LearnDotnetMVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MvcMovie.props",
-      "PackagePath": "build\\MvcMovie.props"
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.LearnDotnetMVC.props",
+      "PackagePath": "build\\LearnDotnetMVC.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MvcMovie.props",
-      "PackagePath": "buildMultiTargeting\\MvcMovie.props"
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.LearnDotnetMVC.props",
+      "PackagePath": "buildMultiTargeting\\LearnDotnetMVC.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MvcMovie.props",
-      "PackagePath": "buildTransitive\\MvcMovie.props"
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.LearnDotnetMVC.props",
+      "PackagePath": "buildTransitive\\LearnDotnetMVC.props"
     }
   ],
   "ElementsToRemove": []

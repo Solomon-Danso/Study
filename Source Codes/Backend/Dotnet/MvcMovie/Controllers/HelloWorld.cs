@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 
-namespace MvcMovie.Controllers;
+namespace LearnDotnetMVC.Controllers;
 public class HelloWorldController: Controller{
 
 public IActionResult Index(){
@@ -19,7 +19,6 @@ public IActionResult Welcome(string name, int numTimes)
 
     return View();
 }
-
 
 
 }
