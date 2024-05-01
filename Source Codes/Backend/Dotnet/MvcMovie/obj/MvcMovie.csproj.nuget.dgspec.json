@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/glydetek/Desktop/Study/Codes Tutorials/Albatross-Codaholic/Dotnet/MvcMovie/MvcMovie.csproj": {}
+    "/Users/glydetek/Desktop/Study/Notes /Source Codes/Backend/Dotnet/MvcMovie/MvcMovie.csproj": {}
   },
   "projects": {
-    "/Users/glydetek/Desktop/Study/Codes Tutorials/Albatross-Codaholic/Dotnet/MvcMovie/MvcMovie.csproj": {
+    "/Users/glydetek/Desktop/Study/Notes /Source Codes/Backend/Dotnet/MvcMovie/MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/glydetek/Desktop/Study/Codes Tutorials/Albatross-Codaholic/Dotnet/MvcMovie/MvcMovie.csproj",
+        "projectUniqueName": "/Users/glydetek/Desktop/Study/Notes /Source Codes/Backend/Dotnet/MvcMovie/MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "/Users/glydetek/Desktop/Study/Codes Tutorials/Albatross-Codaholic/Dotnet/MvcMovie/MvcMovie.csproj",
+        "projectPath": "/Users/glydetek/Desktop/Study/Notes /Source Codes/Backend/Dotnet/MvcMovie/MvcMovie.csproj",
         "packagesPath": "/Users/glydetek/.nuget/packages/",
-        "outputPath": "/Users/glydetek/Desktop/Study/Codes Tutorials/Albatross-Codaholic/Dotnet/MvcMovie/obj/",
+        "outputPath": "/Users/glydetek/Desktop/Study/Notes /Source Codes/Backend/Dotnet/MvcMovie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/glydetek/.nuget/NuGet/NuGet.Config"
