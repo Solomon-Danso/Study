@@ -1,0 +1,11 @@
+<div class="column">
+  <div class="row wrap gap-1 space-between">
+    <app-product *ngFor="let productData of productsDict"
+    [productData]="productData"
+    (productOutput)="onProductOutput($event)"
+
+    ></app-product>
+  </div>
+</div>
+
+

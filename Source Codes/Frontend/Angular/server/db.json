@@ -1,0 +1,12 @@
+{"items":
+[{"id":1,"image":"../../../assets/images/1.png","name":"Black Hoodie","price":"24","rating":5},
+{"id":2,"name":"Branded Shoes","image":"../../../assets/images/2.png","price":"13.5","rating":4},
+{"id":3,"image":"../../../assets/images/3.jpeg","name":"White","price":"85.0","rating":3},
+{"id":4,"image":"../../../assets/images/4.jpeg","name":"Gray Dress 1","price":"625","rating":3},
+{"id":5,"name":"Black T-Shirt (Mens)","image":"../../../assets/images/5.jpeg","price":"55.0","rating":5},
+{"id":6,"name":"Jeans Jacket","image":"../../../assets/images/6.jpg","price":"115.0","rating":4},
+{"id":7,"name":"Black T-Shirt (Womens)","image":"../../../assets/images/7.jpeg","price":"25.0","rating":3},
+{"id":8,"name":"Beige Trench Coat","image":"../../../assets/images/8.jpeg","price":"52.0","rating":1}
+]
+
+}
