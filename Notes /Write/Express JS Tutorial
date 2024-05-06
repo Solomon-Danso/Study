@@ -29,6 +29,73 @@ npm install express
 }
 
 [**********Index.mjs Setup**********]
+import express from "express"
+
+
+const app = express()
+
+const PORT = process.env.PORT|| 3000;
+
+
+app.listen(PORT, ()=>{
+    console.log(`Server running on port ${PORT}`)
+})
+
+[---------Route------]
+
+GET Route 
+import express from "express"
+
+
+const app = express()
+
+const PORT = process.env.PORT|| 3000;
+
+
+
+
+
+app.get("/",(req,res)=>{
+res.status(200).send({msg:"Kofi Money"})
+})
+
+const users = [
+    {
+        "id":1,
+        "fname":"Solo",
+    },
+
+    {
+        "id":2,
+        "fname":"Danso",
+    },
+
+    {
+        "id":3,
+        "fname":"Kofi",
+    },
+
+
+
+
+
+
+
+]
+app.get("/api/users",(req,res)=>{
+    res.status(200).send({users})
+})
+
+
+
+app.listen(PORT, ()=>{
+    console.log(`Server running on port ${PORT}`)
+})
+
+
+
+
+
 
 
 
