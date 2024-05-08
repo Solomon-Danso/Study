@@ -1,5 +1,6 @@
-import express, { response } from "express"
-
+import express from "express"
+import { query, validationResult, body, matchedData,checkSchema } from "express-validator";
+import { createUserValidation } from "./utils/validationSchemas.mjs";
 
 const app = express()
 app.use(express.json());
@@ -28,23 +29,6 @@ const resolveIndexByUserId = (req, res, next) =>{
     next();
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -87,8 +71,26 @@ const mockUsers = [
 
 
 
-app.get("/api/users",(req,res)=>{
+app.get("/api/users",
+
+query("filter").
+isString().
+withMessage("Should be a string").
+notEmpty().
+withMessage("Filter cannot be empty").
+isLength({min:3, max:10}).
+withMessage("Must be between 3 to 10 characters ")
+
+,
+
+(req,res)=>{
+    //From express validator, import query to validate the query section of the code
+    //From the query, we are validating the filter field
+
+    const result = validationResult(req)
+    console.log(result)
     
+
     //Deconstructing query from request object 
     const {query:{filter, value}} = req;
     
@@ -136,19 +138,32 @@ else{
 })
 
 
-app.post("/api/users",(req,res)=>{
+app.post("/api/users",
+
+checkSchema(createUserValidation)
+
+,
+
+(req,res)=>{
     
-    //Capture all the body from req
-    const {body} = req;
 
-    //Create a newUser Object 
-    //id: get the index of the last object in the mockUser array 
-    //Get the id and auto increase by 1
+//This will hold all the errors after validation
+    const result = validationResult(req);
 
-    //...body means pass all the body defined in the frontend into it
-    const newUser = {
+//If the errorResult is not empty throw the errors 
+//If empty means there are no errors from the validation
+    if(!result.isEmpty()){
+        return res.status(400).send({ errors: result.array() })
+    }
+
+
+//const data will store only validated data, I will store only validated data  
+    const data = matchedData(req)
+  
+
+      const newUser = {
         id: mockUsers[mockUsers.length-1].id+1,
-        ...body
+        ...data
     }
 
     mockUsers.push(newUser)
